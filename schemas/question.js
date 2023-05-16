@@ -1,8 +1,10 @@
 export default {
   name: 'question',
   type: 'document',
-  title: 'Question',
+  title: 'Pregunta',
   fields: [
+    {title: 'Bloque', name: 'bloque', type: 'string'},
+    {title: 'Tema', name: 'tema', type: 'number'},
     {name: 'name', type: 'string', title: 'Title'},
     {
       title: 'Description',
@@ -12,7 +14,7 @@ export default {
     },
     {
       title: 'Respuestas',
-      name: 'answers',
+      name: 'respuestas',
       type: 'string',
       options: {
         list: [
