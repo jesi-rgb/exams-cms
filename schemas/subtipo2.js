@@ -1,10 +1,10 @@
 export default {
-  name: 'question',
+  name: 'subtipo2',
   type: 'document',
-  title: 'Pregunta',
+  title: 'Subtipo2',
   fields: [
     {title: 'Bloque', name: 'bloque', type: 'string'},
-    {title: 'Tema', name: 'tema', type: 'number'},
+    {title: 'Tema', name: 'tema', type: 'string'},
     {name: 'name', type: 'string', title: 'Title'},
     {
       title: 'Description',
