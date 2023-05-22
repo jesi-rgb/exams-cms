@@ -13,20 +13,20 @@ export default {
     },
     { title: 'Término a analizar', name: 'termino', type: 'string' },
     {
-      title: 'Opciones a elegir en desplegable',
-      name: 'opciones',
-      type: 'array',
-      of: [{ type: 'string' }],
-    },
-    {
       title: 'Oraciones a analizar',
       name: 'oraciones',
       type: 'array',
       of: [{ type: 'string' }],
     },
     {
+      title: 'Opciones a elegir en desplegable',
+      name: 'opciones',
+      type: 'array',
+      of: [{ type: 'string' }],
+    },
+    {
       title: 'Respuestas correctas para cada oración',
-      name: 'respuestas',
+      name: 'respuesta',
       type: 'array',
       of: [{ type: 'string' }],
     },
